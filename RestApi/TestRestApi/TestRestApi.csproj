@@ -15,4 +15,14 @@
     <PackageReference Include="coverlet.collector" Version="3.1.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RestApi\RestApi.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibrary">
+      <HintPath>..\..\Components\ClassLibrary.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
